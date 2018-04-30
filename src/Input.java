@@ -1,11 +1,12 @@
 public class Input {
-    private String st;
-    private int[] in;
+    private String st;      //
+    private int[] in;       //
 
     public void Input(String st){
         this.st=st.trim().replaceAll("[^A-Za-z]+", "").toUpperCase();
         this.in = new int[this.st.length()];
         Map m = new Map();
+        m.Map();
         for (int i=0;i<this.st.length();i++)
         {
             in[i]=m.getInt(this.st.charAt(i));
